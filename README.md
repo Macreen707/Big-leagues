@@ -13,20 +13,20 @@ This repository contains SQL scripts for an assignment on SQL Window Functions, 
 ## Files Description
 
 - **table_creation.sql:** Creates `employees` and `allowances` tables.  
-  ![Table creation](./screenshots/table_create.png)  
+  ![Table creation](/table_create.png)  
 - **data_insertion.sql:** Inserts sample data into the tables for testing.  
-  ![Data insertion](./screenshots/insert.png)  
+  ![Data insertion](/insert.png)  
 - **window_functions_queries.sql:** Includes queries for:  
   1. **Comparing Values:** Analyze salary trends using LAG() and LEAD().  
-     ![Task 1 Output](./screenshots/task1.png)  
+     ![Task 1 Output](/task1.png)  
   2. **Ranking Data:** Rank employees by salary within departments using RANK() and DENSE_RANK().  
-     ![Task 2 Output](./screenshots/task2.png)  
+     ![Task 2 Output](/task2.png)  
   3. **Identifying Top Records:** Fetch top 3 salaries per department using ROW_NUMBER().  
-     ![Task 3 Output](./screenshots/task3.png)  
+     ![Task 3 Output](/task3.png)  
   4. **Finding Earliest Records:** Retrieve first two join dates per department using ROW_NUMBER().  
-     ![Task 4 Output](./screenshots/task4.png)  
+     ![Task 4 Output](/task4.png)  
   5. **Aggregation:** Calculate maximum salary per department and overall using MAX().  
-     ![Task 5 Output](./screenshots/task5.png)  
+     ![Task 5 Output](/task5.png)  
 
 ## Collaboration
 
